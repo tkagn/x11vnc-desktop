@@ -1,5 +1,4 @@
-# Container Image based on Fedora with Virtual framebuffer, VNC server, and Joe - small window manager. 
-
+# X11 VNC Image - Image based on Fedora with Virtual framebuffer, VNC server, and Joe - small window manager. 
 
 This is a container image that runs a virtual frame buffer(Xvfb) with a small window manger (Joe)  that accessible via rfb protocol (VNC).
 
