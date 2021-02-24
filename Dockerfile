@@ -2,7 +2,7 @@ FROM registry.fedoraproject.org/fedora:latest
 ENV DISPLAY=:0
 WORKDIR /
 
-# Install Virtual framebuffer, vnc server, and small window manager
+# Install Virtual framebuffer, VNC server, and Joe - small window manager
 RUN dnf -y install Xvfb tigervnc-server jwm x11vnc \
 &&  dnf clean all \
 && rm -rf /var/cache/yum
